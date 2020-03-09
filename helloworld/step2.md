@@ -1,5 +1,5 @@
 ## Question 2
-httpd-{version} ディレクトリで `./configure`スクリプトを実行し、正常に完了させなさい。
+httpd-{version} ディレクトリで `./configure`スクリプトを実行し、makefileの作成を正常に完了させなさい。
 - **Answer 2**と同じ画面が出るようにすること  
 - 依存関係のエラーが発生した場合は、必要に応じて依存ライブラリをインストールすること
 - インストール先(Install prefix)には `/usr/local/httpd` を指定すること
