@@ -27,13 +27,6 @@ wget https://downloads.apache.org//apr/apr-util-1.6.1.tar.gz
 
 In the file index.json we need to specify all the messages we will send from in the environment, for example:
 
-<pre class="file">
-"actions": {
-  "hideprogressbar": {}
-=======
-## Mapping event in index.json
-
-In the file index.json the message received in the EventService should be mapped to which event we want to raise, for example:
 
 <pre class="file">
 "events": {
