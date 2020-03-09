@@ -3,7 +3,6 @@ httpd をインストールするために必要な3つのファイル「httpd-2
 https://httpd.apache.org/
 https://apr.apache.org/download.cgi
 
-
 ## Answer 1
 ```
 httpd-2.4.41
