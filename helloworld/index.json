@@ -1,6 +1,6 @@
 {
-  "title": "基礎から理解するWebアプリケーション現場におけるインフラエンジニアの技術",
-  "description": "hellodesc",
+  "title": "Webサーバーをソースコードからインストールする",
+  "description": "基礎から理解するWebアプリケーション現場におけるインフラエンジニアの技術",
   "difficulty": "Beginner",
   "time": "10",
   "details": {
@@ -16,6 +16,14 @@
       {
         "title": "コンパイルの実行",
         "text": "step3.md"
+      },
+      {
+        "title": "Webサーバーの動作確認",
+        "text": "step4.md"
+      },
+      {
+        "title": "コンテンツの修正",
+        "text": "step5.md"
       }
     ],
     "intro": {
