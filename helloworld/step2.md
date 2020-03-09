@@ -1,25 +1,20 @@
-# http に必要なパッケージの準備
-## Question 1
-httpd をインストールする為には、下記の3つのパッケージが必要になる  
-- httpd-{version}.tar.gz
-- apr-{version}.tar.gz  
-- apr-util-{version}.tar.gz  
+# コンパイルする為の環境を整備する
+## Question 2
+httpd-{version} ディレクトリで `./configure`スクリプトを実行し、正常に完了(**Answer 2**と同じ画面が出るように)させなさい  
+依存関係のエラーが発生した場合は、必要に応じてインストールしなさい
 
-下記のWebサイトから、それぞれ最新バージョンをダウンロードし **Answer 1** と同じディレクトリ構成になるように配置しなさい  
-`https://httpd.apache.org/`{{copy}}  
-`https://apr.apache.org/download.cgi`{{copy}}  
-
-※{version} にはそれぞれのパッケージのバージョン番号が入る  
-
-## Answer 1
+## Answer 2
 ```
-httpd-<version>
-├── 〜
-├── 〜
-└── srclib/
-    ├── apr/
-    └── apr-util/
+〜
+Server Version: 2.4.41
+Install prefix: /usr/local/apache2
+C compiler:     gcc
+CFLAGS:          -g -O2 -pthread
+CPPFLAGS:        -DLINUX -D_REENTRANT -D_GNU_SOURCE
+LDFLAGS:
+LIBS:
+C preprocessor: gcc -E
 ```
 
 ## Hint
-`wget, mv, tar`
+`apt-get, libpcre3-dev`
