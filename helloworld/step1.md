@@ -1,13 +1,17 @@
-## Apache HTTP Server(httpd) のインストール
+## Question 1
+httpd をインストールするために必要な3つのファイル「httpd-2.4.41.tar.gz / apr-1.7.0.tar.gz / apr-util-1.6.1.tar.gz」を下記のWebサイトからダウンロードし、`Answer 1`と同じディレクトリ構成になるように配置しなさい
+https://httpd.apache.org/
+https://apr.apache.org/download.cgi
 
-## Question 1-1
-httpd をインストールするために必要なファイルを、下記の3つのWebサイトからダウンロードし`Answer 1-1`と同じディレクトリ構成になるように配置しなさい
 
-**Hint:** wget, tar
-
-## Answer 1-1
+## Answer 1
 ```
-
+httpd-2.4.41
+├── 〜
+├── 〜
+└── srclib/
+    ├── apr/
+    └── apr-util/
 ```
 
 
