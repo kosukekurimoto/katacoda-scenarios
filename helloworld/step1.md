@@ -1,4 +1,4 @@
-
+# http に必要なパッケージの準備
 ## Question 1
 httpd をインストールする為には、下記の3つのパッケージが必要になる  
 - httpd-{version}.tar.gz
