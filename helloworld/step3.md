@@ -1,8 +1,8 @@
-## Question 2
+## Question 3
 httpd-{version} ディレクトリで `./configure`スクリプトを実行し、正常に完了(**Answer 2**と同じ画面が出るように)させなさい  
 依存関係のエラーが発生した場合は、必要に応じてインストールしなさい
 
-## Answer 2
+## Answer 3
 ```
 〜
 Server Version: 2.4.41

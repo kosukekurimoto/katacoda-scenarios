@@ -1,4 +1,3 @@
-# httpd のソースコードのダウンロードと配置
 ## Question 1
 httpd をインストールする為には、下記の3つのパッケージが必要になる  
 - httpd-{version}.tar.gz
@@ -13,7 +12,7 @@ httpd をインストールする為には、下記の3つのパッケージが�
 
 ## Answer 1
 ```
-httpd-<version>
+httpd-{version}
 ├── 〜
 ├── 〜
 └── srclib/
