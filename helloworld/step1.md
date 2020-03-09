@@ -1,7 +1,11 @@
 ===
 ## Question 1
-httpd をインストールするために必要な3つのファイル「httpd-2.4.41.tar.gz / apr-1.7.0.tar.gz / apr-util-1.6.1.tar.gz」を下記のWebサイトからダウンロードし、**Answer 1**と同じディレクトリ構成になるように配置しなさい
+httpd をインストールする為には下記の3つのファイルが必要になる。  
+- httpd-<version>.tar.gz
+- apr-<version>.tar.gz  
+- apr-util-<version>.tar.gz  
 
+下記のWebサイトから、それぞれ最新バージョンをダウンロードし **Answer 1** と同じディレクトリ構成になるように配置しなさい
 `https://httpd.apache.org/`{{copy}}
 `https://apr.apache.org/download.cgi`{{copy}}
 
@@ -15,7 +19,7 @@ httpd-2.4.41
     └── apr-util/
 ```
 
-
+**Hint:** wget, mv, tar
 ```bash
 wget https://downloads.apache.org//httpd/httpd-2.4.41.tar.gz
 ```
