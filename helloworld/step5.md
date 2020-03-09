@@ -4,4 +4,5 @@
 `https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/`{{copy}}  
 
 ## Hint
-httpd の DocumentRoot は httpd.conf ファイル で設定されています
+Webサーバーが表示するhtmlファイルはDocumentRootディレクトリに配置されている  
+httpdのDocumentRootはhttpd.confファイルで指定することができる  
